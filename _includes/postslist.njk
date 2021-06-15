@@ -7,7 +7,7 @@
       {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
       <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
     {% endfor %}
-    {{ content | safe }}
+    {{ post.data.description }}
   </li>
 {% endfor %}
 </ol>
