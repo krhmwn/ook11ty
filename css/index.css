@@ -21,6 +21,14 @@ body {
   color: var(--darkgray);
   background-color: var(--white);
 }
+
+h1,h2,h3,h4,h5,h6{line-height:1.25;display:block}
+h4{font-size:1.125em}
+h3{font-size:1.35em}
+h2{font-size:1.5em}
+h1{font-size:1.75em}
+
+
 p:last-child {
   margin-bottom: 0;
 }
@@ -48,6 +56,9 @@ main :first-child {
   margin-top: 0;
 }
 header {
+  display: flex;
+  padding: 4em 0;
+  justify-content: center;
   border-bottom: 1px dashed var(--lightgray);
 }
 header:after {
