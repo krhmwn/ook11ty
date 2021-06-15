@@ -12,12 +12,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
 
-  //post excerpt
-  const excerpt = require('eleventy-plugin-excerpt');
-  module.exports = function(eleventyConfig) {
-  eleventyConfig.addPlugin(excerpt);
-};
-  
   // https://www.11ty.dev/docs/data-deep-merge/
   eleventyConfig.setDataDeepMerge(true);
 
