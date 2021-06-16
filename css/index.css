@@ -159,15 +159,26 @@ code {
   list-style: none;
   padding: 0;
 }
+
 .postlist-item {
   line-height: 1.8;
-}
+  width:calc(96% / 2);
+  height:auto;
+  display:inline-block;
+  vertical-align:top
+  }
 
+.postlist-item:nth-child(3n+1){
+  width:calc(99% / 1)
+  }
+
+.postlist-item:nth-child(3n+3){
+  margin-left:1.125em
+  }
 
 .tmpl-home {
   padding: 3em 0;
 }
-
 
 /* Tags */
 .post-tag {
