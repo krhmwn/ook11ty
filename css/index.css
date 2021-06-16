@@ -8,7 +8,6 @@
   --white: #fff;
 }
 
-/* Global stylesheet */
 * {
   box-sizing: border-box;
 }
@@ -22,16 +21,11 @@ body {
   background-color: var(--white);
 }
 
-h1,h2,h3,h4,h5,h6{line-height:1.25;display:block}
 h4{font-size:1.125em}
 h3{font-size:1.35em}
 h2{font-size:1.5em}
 h1{font-size:1.75em}
 
-
-p:last-child {
-  margin-bottom: 0;
-}
 p,
 .tmpl-post li,
 img {
@@ -52,9 +46,7 @@ main {
   max-width: 37.5em;
   margin: 0 auto;
 }
-main :first-child {
-  margin-top: 0;
-}
+
 header {
   display: flex;
   padding: 4em 0;
@@ -232,14 +224,6 @@ a[href].post-tag:focus {
   align-self: center;
 }
 
-/* Warning */
-.warning {
-  background-color: #ffc;
-  padding: 1em 0.625em; /* 16px 10px /16 */
-}
-.warning ol:only-child {
-  margin: 0;
-}
 
 /* Direct Links / Markdown Headers */
 .direct-link {
