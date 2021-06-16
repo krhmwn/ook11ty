@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Home
+  key: Beranda
   order: 1
 ---
 {% set maxPosts = collections.posts.length | min(9) %}
@@ -10,5 +10,3 @@ eleventyNavigation:
 {% set postslist = collections.posts | head(-9) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
-
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the archive</a>.</p>
