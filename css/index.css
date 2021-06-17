@@ -23,6 +23,10 @@ body {
   font-size:1.125em;
 }
 
+h1, h2, h3, h4{
+  margin: 0.5rem 0;
+}
+
 h4{font-size:1.125em}
 h3{font-size:1.35em}
 h2{font-size:1.5em}
@@ -173,7 +177,7 @@ code {
   height:auto;
   display:inline-block;
   vertical-align:top;
-  padding: 0 0.75rem;
+  padding: 0.5rem 0.75rem;
   }
 
 .postlist-item:hover {
