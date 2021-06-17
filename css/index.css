@@ -168,7 +168,7 @@ code {
   height:auto;
   display:inline-block;
   vertical-align:top;
-  padding: 1rem;
+  padding: 0 0.75rem;
   }
 
 .postlist-item:hover {
@@ -177,10 +177,6 @@ code {
 
 .postlist-item:nth-child(3n+1){
   width:calc(99% / 1)
-  }
-
-.postlist-item:nth-child(3n+3){
-  margin-left:0.25rem
   }
 
 
