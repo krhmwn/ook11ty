@@ -1,6 +1,6 @@
 /* Colors */
 :root {
-  --lightgray: #e0e0e0;
+  --lightgray: #f5f5f5;
   --gray: #C0C0C0;
   --darkgray: #333;
   --navy: #4C74B9;;
@@ -167,7 +167,8 @@ code {
   width:calc(96% / 2);
   height:auto;
   display:inline-block;
-  vertical-align:top
+  vertical-align:top;
+  padding: 1rem;
   }
 
 .postlist-item:hover {
@@ -179,7 +180,7 @@ code {
   }
 
 .postlist-item:nth-child(3n+3){
-  margin-left:1.125em
+  margin-left:0.25rem
   }
 
 
