@@ -170,6 +170,10 @@ code {
   vertical-align:top
   }
 
+.postlist-item:hover {
+  background-color: var(--lightgray);
+}
+
 .postlist-item:nth-child(3n+1){
   width:calc(99% / 1)
   }
@@ -178,7 +182,6 @@ code {
   margin-left:1.125em
   }
 
-time{font-size:90%}
 
 /* Tags */
 .post-tag {
@@ -187,7 +190,6 @@ time{font-size:90%}
   justify-content: center;
   text-transform: uppercase;
   margin-left: 0.8em; /* 8px /10 */
-  font-size:90%
 }
 
 .post-tag:before {
