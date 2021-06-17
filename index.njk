@@ -4,8 +4,8 @@ eleventyNavigation:
   key: Beranda
   order: 1
 ---
-{% set maxPosts = collections.posts.length | min(9) %}
+{% set maxPosts = collections.posts.length | min(6) %}
 
-{% set postslist = collections.posts | head(-9) %}
+{% set postslist = collections.posts | head(-6) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
