@@ -15,7 +15,6 @@
     {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
     <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
     {% endfor %}
-    <p>{{ post.data.description }}</p>
   </li>
 {% endfor %}
 </ol>
