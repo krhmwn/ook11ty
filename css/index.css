@@ -50,14 +50,14 @@ a[href]:hover {
 }
 
 main {
-  padding: 1rem;
+  padding: 1rem 1rem 5rem;
   max-width: 37.5em;
   margin: 0 auto;
 }
 
 header {
   display: flex;
-  padding: 4em 0;
+  padding: 4rem 0;
   justify-content: center;
   border-bottom: 1px dashed var(--lightgray);
 }
