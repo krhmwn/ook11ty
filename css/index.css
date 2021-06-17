@@ -33,9 +33,13 @@ h2{font-size:1.5em}
 h1{font-size:1.75em}
 
 p,
-.tmpl-post li,
-img {
+.tmpl-post li{
   max-width: 37.5em; /* 600px /16 */
+}
+
+img{
+  max-width:100%;
+  border: 0.0625rem solid var(--gray);
 }
 
 a[href] {
@@ -59,13 +63,13 @@ header {
   display: flex;
   padding: 4rem 0;
   justify-content: center;
-  border-bottom: 1px dashed var(--lightgray);
 }
 header:after {
   content: "";
   display: table;
   clear: both;
 }
+
 table {
   margin: 1em 0;
 }
@@ -174,7 +178,7 @@ code {
   display:inline-block;
   vertical-align:top;
   padding: 1rem 0.75rem;
-  border-top: 1px dashed var(--gray);
+  border-top: 0.0625rem dashed var(--gray);
 }
 
 .postlist-item:hover {
