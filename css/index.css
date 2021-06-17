@@ -178,6 +178,8 @@ code {
   margin-left:1.125em
   }
 
+time{font-size:90%}
+
 /* Tags */
 .post-tag {
   display: inline-flex;
@@ -185,11 +187,11 @@ code {
   justify-content: center;
   text-transform: uppercase;
   margin-left: 0.8em; /* 8px /10 */
-  color: var(--darkgray);
+  font-size:90%
 }
-a[href].post-tag,
-a[href].post-tag:visited {
-  color: inherit;
+
+.post-tag:before {
+  content: "#";
 }
 
 .postlist-item > .post-tag {
