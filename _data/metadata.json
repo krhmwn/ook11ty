@@ -1,21 +1,21 @@
 {
   "title": "Ook Rahmawan Blog",
-  "url": "https://example.com/",
-  "language": "en",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "url": "http://ook.web.id/",
+  "language": "id",
+  "description": "Wisata kuliner, Jalan-jalan, Pengalaman, Blog & Desain",
   "feed": {
-    "subtitle": "I am writing about my experiences as a naval navel-gazer.",
+    "subtitle": "Wisata kuliner, Jalan-jalan, Pengalaman, Blog & Desain",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
-    "id": "https://example.com/"
+    "id": "http://ook.web.id/"
   },
   "jsonfeed": {
     "path": "/feed/feed.json",
-    "url": "https://example.com/feed/feed.json"
+    "url": "http://ook.web.id/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
-    "email": "youremailaddress@example.com",
-    "url": "https://example.com/about-me/"
+    "name": "Ook Rahmawan",
+    "email": "ookrahmawan@mail.ru",
+    "url": "http://ook.web.id/"
   }
 }
