@@ -242,6 +242,19 @@ a[href].direct-link:focus:visited,
 }
 
 @media only screen and (max-width: 47.9999em) {
+
+header {
+    display: block;
+}
+.home, .nav {
+  float: none;
+  text-align: center;
+}
+  
+main {
+  padding: 1rem 0rem 4rem;
+}
+  
 .postlist-item{
   width:calc(99% / 1)
   }
