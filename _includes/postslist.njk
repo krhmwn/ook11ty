@@ -10,11 +10,4 @@
     <p>{{ post.data.description }}</p>
   </li>
 {% endfor %}
-<li class="postlist-item">
-    <h2><a href="{{ '/posts/' | url }}">Arsip Blog</a></h2>
-    <p>{% for tag in collections.tagList | filterTagList %}
-    {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-    <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-    {% endfor %}</p>
-  </li>
 </ol>
