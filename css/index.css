@@ -35,7 +35,7 @@ h1{font-size:1.75em}
 p,
 .tmpl-post li{
   max-width: 37.5em; /* 600px /16 */
-  margin: 0 0 1.5rem 0;
+  margin: 1rem 0;
 }
 
 img{
