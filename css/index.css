@@ -191,6 +191,9 @@ code {
   width:calc(99% / 1)
   }
 
+.tmpl-post {
+    border-top: 0.0625rem dashed var(--gray);
+}
 
 /* Tags */
 .post-tag {
@@ -208,7 +211,8 @@ code {
   align-self: center;
 }
 
-.pagenav{display:block;width:auto;overflow:hidden}
+.pagenav{display:block;width:auto;overflow:hidden;padding: 1.25rem 0;
+    border-top: 0.0625rem dashed var(--gray);}
 .pagenav a{display:block;width:50%;float:left;margin:1em 0}
 .pagenav .next{text-align:right}
 
