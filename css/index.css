@@ -35,11 +35,13 @@ h1{font-size:1.75em}
 p,
 .tmpl-post li{
   max-width: 37.5em; /* 600px /16 */
+  margin: 0 0 1.5rem 0;
 }
 
 img{
   max-width:100%;
   border: 0.0625rem solid var(--gray);
+  margin: 1rem 0;
 }
 
 a[href] {
@@ -173,7 +175,7 @@ code {
 
 .postlist-item {
   line-height: 1.8;
-  width:calc(98% / 2);
+  width:calc(99% / 2);
   height:auto;
   display:inline-block;
   vertical-align:top;
