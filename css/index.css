@@ -55,6 +55,11 @@ a[href]:hover {
   text-decoration:underline;
 }
 
+hr {
+    border: 0 none;
+    margin: 1.5rem 0;
+}
+
 main {
   padding: 1rem 1rem 5rem;
   max-width: 37.5em;
@@ -211,7 +216,7 @@ code {
   align-self: center;
 }
 
-.pagenav{display:block;width:auto;overflow:hidden;padding: 1.25rem 0;
+.pagenav{display:block;width:auto;overflow:hidden;padding: 1.125rem 0;
     border-top: 0.0625rem dashed var(--gray);}
 .pagenav a{display:block;width:50%;float:left;margin:1em 0}
 .pagenav .next{text-align:right}
