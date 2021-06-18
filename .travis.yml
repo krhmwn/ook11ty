@@ -5,7 +5,6 @@ before_script:
   - npm install @11ty/eleventy -g
 script: eleventy --pathprefix="/eleventy-base-blog/"
 deploy:
-  fqdn: ook.web.id
   local-dir: _site
   provider: pages
   skip-cleanup: true
