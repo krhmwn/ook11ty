@@ -6,9 +6,9 @@ eleventyNavigation:
   order: 2
 ---
 <h2 class="tittlepage>Arsip Blog</h2>
-{% for tag in collections.tagList | filterTagList %}
+<p>{% for tag in collections.tagList | filterTagList %}
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
   <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{% endfor %}
+{% endfor %}</p>
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
