@@ -5,8 +5,10 @@ eleventyNavigation:
   key: Arsip Blog
   order: 2
 ---
-
-<h2>Arsip Blog</h2>
-
+<h2 class="tittlepage>Arsip Blog</h2>
+{% for tag in collections.tagList | filterTagList %}
+  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+{% endfor %}
 {% set postslist = collections.posts %}
 {% include "postslist.njk" %}
