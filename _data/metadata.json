@@ -2,9 +2,9 @@
   "title": "Ook Rahmawan Blog",
   "url": "http://ook.web.id/",
   "language": "id",
-  "description": "Wisata kuliner, Jalan-jalan, Pengalaman, Blog, Desain",
+  "description": "Wisata kuliner, Makan enak, Jalan-jalan, Pengalaman, Teknologi, Web, Blog, Desain",
   "feed": {
-    "subtitle": "Wisata kuliner, Jalan-jalan, Pengalaman, Blog & Desain",
+    "subtitle": "Wisata kuliner, Makan enak, Jalan-jalan, Pengalaman, Teknologi, Web, Blog, Desain",
     "filename": "feed.xml",
     "path": "/feed/feed.xml",
     "id": "http://ook.web.id/"
