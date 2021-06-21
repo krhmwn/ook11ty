@@ -1,0 +1,10 @@
+---
+permalink: /tags/
+layout: layouts/home.njk
+key: Penanda
+---
+<h2 class="tittlepage">Penanda</h2>
+{% for tag in collections.tagList | filterTagList %}
+  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+{% endfor %}
