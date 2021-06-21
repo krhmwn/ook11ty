@@ -256,7 +256,11 @@ header {
 }
   
 .postlist-item{
-  width:calc(99% / 1)
-  }
+  width:calc(99% / 1);
+  padding:1rem;
+}
 
+.tittlepage{
+  padding:0 1rem;
+} 
 }
