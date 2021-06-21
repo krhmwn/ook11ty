@@ -1,9 +1,9 @@
 <ol reversed class="postlist">
   <li class="postlist-item">
-  <p>{% for tag in collections.tagList | filterTagList %}
+  {% for tag in collections.tagList | filterTagList %}
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
   <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{% endfor %}</p>
+  {% endfor %}
   </li>
 {% for post in postslist | reverse %}
   <li class="postlist-item">
