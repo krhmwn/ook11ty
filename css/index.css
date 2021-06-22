@@ -240,6 +240,13 @@ a[href].direct-link:focus:visited,
 :hover > a[href].direct-link:visited {
   color: #aaa;
 }
+footer{
+  padding:4rem 1.25rem;
+  background:#f5f6ee;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:baseline
+}
 
 @media only screen and (max-width: 47.9999em) {
 
