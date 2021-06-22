@@ -194,7 +194,11 @@ code {
 
 .postlist-item:nth-child(3n+1){
   width:calc(99% / 1)
-  }
+}
+
+.postlist-item:last-child {
+  border-bottom: 0.0625rem dashed var(--gray);
+}
 
 .tmpl-post {
     border-top: 0.0625rem dashed var(--gray);
@@ -242,7 +246,6 @@ a[href].direct-link:focus:visited,
 }
 footer{
   padding:4rem 1.25rem;
-  background:#f5f6ee;
   display:flex;
   justify-content:space-evenly;
   align-items:baseline
