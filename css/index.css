@@ -184,7 +184,7 @@ code {
 
 .postlist-item:hover {
   background-color: var(--lightgray);
-  background-image: linear-gradient(to bottom right, var(--lightgray), var(--white),, var(--white));
+  background-image: linear-gradient(to bottom right, var(--lightgray), var(--white), var(--white));
 }
 
 .postlist-item:nth-child(3n+1){
