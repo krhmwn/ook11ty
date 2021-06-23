@@ -1,11 +1,10 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Beranda
+  key: Ook Rahmawan
   order: 1
 ---
 {% set maxPosts = collections.posts.length | min(4) %}
-
-{% set postslist = collections.posts | head(-100) %}
+{% set postslist = collections.posts | head(-4) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
