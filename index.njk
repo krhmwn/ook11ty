@@ -6,6 +6,6 @@ eleventyNavigation:
 ---
 {% set maxPosts = collections.posts.length | min(4) %}
 
-{% set postslist = collections.posts | head(-4) %}
+{% set postslist = collections.posts | head(-100) %}
 {% set postslistCounter = collections.posts | length %}
 {% include "postslist.njk" %}
