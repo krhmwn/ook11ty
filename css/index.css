@@ -154,9 +154,6 @@ code {
 /* Nav */
 .nav {
   padding: 0;
-  list-style: none;
-  float: left;
-  margin-left: 1em;
 }
 .nav-item {
   display: inline-block;
