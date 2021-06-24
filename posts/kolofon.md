@@ -1,6 +1,6 @@
 ---
 title: Kolofon
-description: Kolofon, merupakan kata serapan dari bahasa Inggris yaitu *Colophon* yang pengertiannya bisa dilihat di Wikipedia yaitu halaman yang menguraikan tentang informasi situs web.
+description: Kolofon, merupakan kata serapan dari bahasa Inggris yaitu Colophon yang pengertiannya bisa dilihat di Wikipedia yaitu halaman yang menguraikan tentang informasi situs web.
 date: 2015-12-13
 tags:
   - blog
