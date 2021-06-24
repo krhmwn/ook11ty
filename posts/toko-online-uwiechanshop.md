@@ -1,6 +1,6 @@
 ---
 title: Toko online Uwiechanshop
-description: Toko *online* Uwiechanshop, berisi daftar harga barang yang dijual oleh Dwi Handayani (Uwie). Tersedia aneka *frozen food*, cokelat, *snack*, makanan ringan & aneka kue kering.
+description: Toko online Uwiechanshop berisi daftar harga barang yang dijual oleh Dwi Handayani (Uwie). Tersedia aneka frozen food, cokelat, snack, makanan ringan & aneka kue kering.
 date: 2020-05-01
 tags:
   - iseng
