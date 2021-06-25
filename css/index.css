@@ -30,10 +30,6 @@ code{word-break:break-all}
 .highlight-line-remove{background-color:#902f2f}
 .home{margin:1rem 0}
 .home :link:not(:hover){text-decoration:none}
-.nav{padding:0}
-.nav-item{display:inline-block;margin-right:1em}
-.nav-item a[href]:not(:hover){text-decoration:none}
-.nav-item-active{text-decoration:underline}
 .postlist{list-style:none;padding:0}
 .postlist-item{line-height:1.8;width:calc(99% / 2);height:auto;display:inline-block;vertical-align:top;padding:1.5rem 1rem;border-top:.0625rem dashed var(--gray)}
 .postlist-item:hover{background-color:var(--lightgray);background-image:linear-gradient(to bottom right,#eceff4 20%,#fff,#fff)}
@@ -49,7 +45,12 @@ code{word-break:break-all}
 .direct-link{font-family:sans-serif;text-decoration:none;font-style:normal;margin-left:.1em}
 a[href].direct-link,a[href].direct-link:visited{color:transparent}
 a[href].direct-link:focus,a[href].direct-link:focus:visited,:hover > a[href].direct-link,:hover > a[href].direct-link:visited{color:#aaa}
-footer{padding:4rem 1.25rem;display:flex;justify-content:space-evenly;align-items:baseline}
+footer{padding: 0 1em 2rem;display: block;margin: 0 auto;max-width: 37.5em;text-align: center;}
+.nav{padding: 4rem 0;}
+.nav-item{display:inline-block;margin-right:1em}
+.nav-item a[href]:not(:hover){text-decoration:none}
+.nav-item-active{text-decoration:underline}
+.info{font-size:85%;}
 @media only screen and (max-width: 47.9999em) {
 header{display:block}
 .home,.nav{float:none;text-align:center}
