@@ -11,6 +11,7 @@ img{max-width:100%;border:.0625rem solid var(--gray);margin:1rem 0}
 a[href]{color:var(--blue);text-decoration:none}
 a[href]:visited{color:var(--navy)}
 a[href]:hover{text-decoration:underline}
+ul,ol{margin:0}
 hr{border:0 none;margin:1.5rem 0}
 main{padding:1rem;max-width:37.5em;margin:0 auto}
 header{display:flex;padding:4rem 0;justify-content:center}
@@ -34,7 +35,7 @@ code{word-break:break-all}
 .nav-item a[href]:not(:hover){text-decoration:none}
 .nav-item-active{text-decoration:underline}
 .postlist{list-style:none;padding:0}
-.postlist-item{line-height:1.8;width:calc(99% / 2);height:auto;display:inline-block;vertical-align:top;padding:1rem .75rem;border-top:.0625rem dashed var(--gray)}
+.postlist-item{line-height:1.8;width:calc(99% / 2);height:auto;display:inline-block;vertical-align:top;padding:1.5rem 1rem;border-top:.0625rem dashed var(--gray)}
 .postlist-item:hover{background-color:var(--lightgray);background-image:linear-gradient(to bottom right,#eceff4 20%,#fff,#fff)}
 .postlist-item:nth-child(3n+1){width:calc(99% / 1)}
 .postlist-item:last-child{border-bottom:.0625rem dashed var(--gray)}
