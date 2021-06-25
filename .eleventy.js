@@ -5,7 +5,6 @@ const pluginSyntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight");
 const pluginNavigation = require("@11ty/eleventy-navigation");
 const markdownIt = require("markdown-it");
 const markdownItAnchor = require("markdown-it-anchor");
-const { createInlineCss } = require('./eleventy-google-fonts');
 
 module.exports = function(eleventyConfig) {
   // Add plugins
@@ -14,6 +13,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginNavigation);
 
    // GOOGLE FONT
+  const { createInlineCss } = require('./eleventy-google-fonts');
   module.exports = function (eleventyConfig) {
   eleventyConfig.addNunjucksAsyncShortcode("eleventyGoogleFonts", async value => {
     return await createInlineCss(value)
