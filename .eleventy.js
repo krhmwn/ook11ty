@@ -11,14 +11,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(pluginSyntaxHighlight);
   eleventyConfig.addPlugin(pluginNavigation);
-
-   // GOOGLE FONT
-  const { createInlineCss } = require('./eleventy-google-fonts');
-  module.exports = function (eleventyConfig) {
-  eleventyConfig.addNunjucksAsyncShortcode("eleventyGoogleFonts", async value => {
-    return await createInlineCss(value)
-  });
-}
   
   // https://www.11ty.dev/docs/data-deep-merge/
   eleventyConfig.setDataDeepMerge(true);
