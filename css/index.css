@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 :root{--lightgray:#eceff4;--gray:silver;--darkgray:#444;--navy:#4C74B9;--blue:#0092ff;--white:#fff}
 *{box-sizing:border-box}
 html,body{padding:0;margin:0;font-family:'Noto Sans', sans-serif;color:var(--darkgray);background-color:var(--white);line-height:1.75;font-size:1.125em
