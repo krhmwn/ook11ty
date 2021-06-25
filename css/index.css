@@ -46,7 +46,7 @@ code{word-break:break-all}
 a[href].direct-link,a[href].direct-link:visited{color:transparent}
 a[href].direct-link:focus,a[href].direct-link:focus:visited,:hover > a[href].direct-link,:hover > a[href].direct-link:visited{color:#aaa}
 footer{padding: 0 1em 2rem;display: block;margin: 0 auto;max-width: 37.5em;text-align: center;}
-.nav{padding: 4rem 0;}
+.nav{padding: 4rem 0 5rem;}
 .nav-item{display:inline-block;margin:0 0.5em}
 .nav-item a[href]:not(:hover){text-decoration:none}
 .nav-item-active{text-decoration:underline}
