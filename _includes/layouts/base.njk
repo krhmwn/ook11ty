@@ -17,15 +17,13 @@
     <header>
       <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
     </header>
-    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
-{{ content | safe }}
-    </main>
+    <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>{{ content | safe }}</main>
     <footer>
     <ul class="nav">
       {%- for entry in collections.all | eleventyNavigation %}<li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>{%- endfor %}
         <li class="nav-item"><a href="{{ metadata.feed.path | url }}">RSS</a></li>
     </ul>
-    <p class="info">Didukung oleh <a href="https://www.11ty.dev/">Eleventy</a>, <a href="https://github.com/">Github</a> &amp; <a href="https://www.netlify.com/">Netlify</a></p>
+    <p class="info">&copy; {{ metadata.title }} | Didukung oleh <a href="https://www.11ty.dev/">Eleventy</a>, <a href="https://github.com/">Github</a> &amp; <a href="https://www.netlify.com/">Netlify</a></p>
     </footer>
   </body>
 </html>
