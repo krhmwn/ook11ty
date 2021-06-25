@@ -1,6 +1,6 @@
-:root{--lightgray:#eceff4;--gray:silver;--darkgray:#444;--navy:#4C74B9;--blue:#0092ff;--white:#fff}
+:root{--lightgray:#eceff4;--gray:silver;--dark:#444;--darkgray:#666;--navy:#4C74B9;--blue:#0092ff;--white:#fff}
 *{box-sizing:border-box}
-html,body{padding:0;margin:0;font-family:-apple-system, system-ui, sans-serif;color:var(--darkgray);background-color:var(--white);line-height:1.75;font-size:1.125em}
+html,body{padding:0;margin:0;font-family:-apple-system, system-ui, sans-serif;color:var(--dark);background-color:var(--white);line-height:1.75;font-size:1.125em}
 h1,h2,h3,h4{margin:.5rem 0;font-weight:normal}
 h4{font-size:1.125em}
 h3{font-size:1.35em}
@@ -47,10 +47,10 @@ a[href].direct-link,a[href].direct-link:visited{color:transparent}
 a[href].direct-link:focus,a[href].direct-link:focus:visited,:hover > a[href].direct-link,:hover > a[href].direct-link:visited{color:#aaa}
 footer{padding: 0 1em 2rem;display: block;margin: 0 auto;max-width: 37.5em;text-align: center;}
 .nav{padding: 4rem 0;}
-.nav-item{display:inline-block;margin-right:1em}
+.nav-item{display:inline-block;margin:0 0.5em}
 .nav-item a[href]:not(:hover){text-decoration:none}
 .nav-item-active{text-decoration:underline}
-.info{font-size:85%;}
+.info{font-size:85%;color:var(--darkgray);max-width:100%}
 @media only screen and (max-width: 47.9999em) {
 header{display:block}
 .home,.nav{float:none;text-align:center}
