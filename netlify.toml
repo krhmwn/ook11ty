@@ -1,3 +1,7 @@
 [build]
-  publish = "_site"
-  command = "DEBUG=*eleventy"
+command: DEBUG=*eleventy
+commandOrigin: config
+publish: /opt/build/repo/_site
+publishOrigin: config
+functions:
+'*': {}
