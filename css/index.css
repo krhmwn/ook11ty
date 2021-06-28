@@ -1,4 +1,4 @@
-:root{--lightgray:#eceff4;--gray:silver;--dark:#444;--darkgray:#666;--navy:#4C74B9;--blue:#0092ff;--white:#fff}
+:root{--lightgray:#eceff4;--gray:silver;--dark:#444;--darkgray:#777;--navy:#4C74B9;--blue:#0092ff;--white:#fff}
 *{box-sizing:border-box}
 html,body{padding:0;margin:0;font-family:-apple-system, system-ui, sans-serif;color:var(--dark);background-color:var(--white);line-height:1.75;font-size:1.125em}
 h1,h2,h3,h4{margin:.5rem 0;font-weight:normal}
@@ -50,7 +50,7 @@ footer{padding: 0 1em 2rem;display: block;margin: 0 auto;max-width: 37.5em;text-
 .nav-item{display:inline-block;margin:0 0.5em}
 .nav-item a[href]:not(:hover){text-decoration:none}
 .nav-item-active{font-weight:bold}
-.info{font-size:85%;color:var(--darkgray);max-width:100%}
+.info{font-size:80%;color:var(--darkgray);max-width:100%}
 @media only screen and (max-width: 47.9999em) {
 header{display:block}
 .home,.nav{float:none;text-align:center}
