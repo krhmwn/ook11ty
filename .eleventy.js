@@ -47,6 +47,9 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter("filterTagList", filterTagList)
 
+  eleventyConfig.addCollection("tagList", require("./src/utils/getTagList.js"));
+  
+  
   // Create an array of all tags
   eleventyConfig.addCollection("tagList", function(collection) {
     let tagSet = new Set();
