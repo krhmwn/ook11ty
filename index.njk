@@ -4,7 +4,7 @@ eleventyNavigation:
   key: Ook Rahmawan
   order: 1
 ---
-{% set postslist = collections.posts | head(-4) %}
+{% set postslist = collections.posts | first %}
 {% include "postslist.njk" %}
-{% set postslist = collections.posts | head(-4+20) %}
+{% set postslist = collections.posts | head(>1) %}
 {% include "postslistlite.njk" %}
