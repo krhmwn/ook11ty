@@ -40,8 +40,6 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("min", (...numbers) => {
     return Math.min.apply(null, numbers);
   });
-
- eleventyConfig.addCollection("tagList", require("./src/utils/getTagList.js"));
   
   
   function filterTagList(tags) {
