@@ -34,7 +34,6 @@ code{word-break:break-all}
 .postlist-item{line-height:1.8;width:calc(99% / 2);height:auto;display:inline-block;vertical-align:top;padding:1.5rem 1rem;border-top:.0625rem dashed var(--gray)}
 .postlist-item:hover{background-color:var(--lightgray);background-image:linear-gradient(to bottom right,#eceff4 20%,#fff,#fff)}
 .postlist-item:nth-child(3n+1){width:calc(99% / 1)}
-.postlist-item:last-child{border-bottom:.0625rem dashed var(--gray)}
 .tmpl-post{border-top:.0625rem dashed var(--gray)}
 .post-tag{display:inline-flex;align-items:center;justify-content:center;margin-left:.8em}
 .post-tag:before{content:"#"}
@@ -46,7 +45,7 @@ time{color:var(--darkgray)}
 .direct-link{font-family:sans-serif;text-decoration:none;font-style:normal;margin-left:.1em}
 a[href].direct-link,a[href].direct-link:visited{color:transparent}
 a[href].direct-link:focus,a[href].direct-link:focus:visited,:hover > a[href].direct-link,:hover > a[href].direct-link:visited{color:#aaa}
-footer{padding: 0 1em 2rem;display: block;margin: 0 auto;max-width: 37.5em;text-align: center;}
+footer{padding: 0 1em 2rem;display: block;margin: 0 auto;max-width: 37.5em;text-align:center;border-top:.0625rem dashed var(--gray)}
 .nav{padding: 4rem 0 6rem;}
 .nav-item{display:inline-block;margin:0 0.5em}
 .nav-item a[href]:not(:hover){text-decoration:none}
