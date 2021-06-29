@@ -6,5 +6,5 @@ eleventyNavigation:
 ---
 {% set postslist = collections.posts | head(-3) %}
 {% include "postslist.njk" %}
-{% set postslist = collections.posts | head(+3) %}
+{% set postslist = collections.posts | head(+50) %}
 {% include "postslistlite.njk" %}
