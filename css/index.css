@@ -46,7 +46,7 @@ time{color:var(--darkgray)}
 a[href].direct-link,a[href].direct-link:visited{color:transparent}
 a[href].direct-link:focus,a[href].direct-link:focus:visited,:hover > a[href].direct-link,:hover > a[href].direct-link:visited{color:#aaa}
 footer{padding: 0 1em 2rem;display: block;margin: 0 auto;max-width: 37.5em;text-align:center;border-top:.0625rem dashed var(--gray)}
-.nav{padding: 4rem 0 6rem;}
+.nav{padding: 4rem 0 7rem;}
 .nav-item{display:inline-block;margin:0 0.5em}
 .nav-item a[href]:not(:hover){text-decoration:none}
 .nav-item-active{font-weight:bold}
