@@ -42,8 +42,6 @@ module.exports = function(eleventyConfig) {
     return Math.min.apply(null, numbers);
   });
   
-  eleventyConfig.addCollection("tagList", require("./_filters/getTagList.js"));
-  
   
   function filterTagList(tags) {
     return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
