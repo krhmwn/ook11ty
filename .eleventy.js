@@ -41,14 +41,15 @@ module.exports = function(eleventyConfig) {
     return Math.min.apply(null, numbers);
   });
 
+ eleventyConfig.addCollection("tagList", require("./src/utils/getTagList.js"));
+  
+  
   function filterTagList(tags) {
     return (tags || []).filter(tag => ["all", "nav", "post", "posts"].indexOf(tag) === -1);
   }
 
   eleventyConfig.addFilter("filterTagList", filterTagList)
 
-  eleventyConfig.addCollection("tagList", require("./src/utils/getTagList.js"));
-  
   
   // Create an array of all tags
   eleventyConfig.addCollection("tagList", function(collection) {
