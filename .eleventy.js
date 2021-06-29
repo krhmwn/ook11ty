@@ -28,9 +28,6 @@ module.exports = function(eleventyConfig) {
   });
 
   
-  eleventyConfig.addCollection("tagList", require("./_filters/getTagList.js "));
-  
-  
   // Get the first `n` elements of a collection.
   eleventyConfig.addFilter("head", (array, n) => {
     if( n < 0 ) {
@@ -44,6 +41,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter("min", (...numbers) => {
     return Math.min.apply(null, numbers);
   });
+  
+  eleventyConfig.addCollection("tagList", require("./src/site/_filters/getTagList.js"));
   
   
   function filterTagList(tags) {
