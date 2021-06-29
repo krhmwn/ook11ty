@@ -42,7 +42,7 @@ module.exports = function(eleventyConfig) {
     return Math.min.apply(null, numbers);
   });
   
-  eleventyConfig.addCollection("tagList", require("./src/site/_filters/getTagList.js"));
+  eleventyConfig.addCollection("tagList", require("./_filters/getTagList.js"));
   
   
   function filterTagList(tags) {
