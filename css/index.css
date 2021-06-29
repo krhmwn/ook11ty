@@ -30,6 +30,7 @@ code{word-break:break-all}
 .highlight-line-remove{background-color:#902f2f}
 .home{margin:1rem 0}
 .home :link:not(:hover){text-decoration:none}
+.tittlepage{padding:0 1rem}
 .postlist{list-style:none;padding:0}
 .postlist-item{line-height:1.8;width:calc(99% / 2);height:auto;display:inline-block;vertical-align:top;padding:1.5rem 1rem;border-top:.0625rem dashed var(--gray)}
 .postlist-item:hover{background-color:var(--lightgray);background-image:linear-gradient(to bottom right,#eceff4 20%,#fff,#fff)}
@@ -56,5 +57,4 @@ header{display:block}
 .home,.nav{float:none;text-align:center}
 .tmpl-home{padding:1rem 0}
 .postlist-item{width:calc(99% / 1);padding:1rem}
-.tittlepage{padding:0 1rem}
 }
