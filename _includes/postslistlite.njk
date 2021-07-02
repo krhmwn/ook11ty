@@ -3,6 +3,6 @@
 {% for post in postslist | reverse %}<li class="postlist-item">
 <h2><a href="{{ post.url | url }}" title="{{ post.data.title }}">{% if post.data.title %}{{ post.data.title }}{% else %}<code>{{ post.url }}</code>{% endif %}</a></h2>
 <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
-{% for tag in post.data.tags | filterTagList %}{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}<a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>{% endfor %}
+{% for tag in post.data.tags | filterTagList %}{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}<a href="{{ tagUrl | url }}" class="post-tag" title="{{ tag }}">{{ tag }}</a>{% endfor %}
 </li>{% endfor %}
 </ol>
