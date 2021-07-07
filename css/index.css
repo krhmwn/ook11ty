@@ -36,10 +36,10 @@ code{word-break:break-all}
 .postlist-item:hover{background-color:var(--lightgray);background-image:linear-gradient(to bottom right,#eceff4 20%,#fff,#fff)}
 .postlist-item:nth-child(3n+1){width:calc(99% / 1)}
 .tmpl-post{border-top:.0625rem dashed var(--gray)}
-.post-tag{display:inline-flex;align-items:center;justify-content:center;padding-left:.8em}
+.post-tag{display:inline-flex;align-items:center;justify-content:center;padding-right:.8em}
 .post-tag:before{content:"#"}
 .postlist-item > .post-tag{align-self:center}
-time{color:var(--darkgray);padding-left:.8em}
+time{color:var(--darkgray);padding-right:.8em}
 .pagenav{display:block;width:auto;overflow:hidden;padding:1.75rem 0;border-top:.0625rem dashed var(--gray)}
 .pagenav a{display:block;width:50%;float:left}
 .pagenav .next{text-align:right}
