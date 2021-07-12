@@ -8,7 +8,7 @@ key: Penanda
 <li class="postlist-item">
 {% for tag in collections.tagList %}
   {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>({{ tag.tagCount }})
 {% endfor %}
 </li>
 </ol>
