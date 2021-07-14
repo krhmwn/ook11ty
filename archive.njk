@@ -6,4 +6,4 @@ eleventyNavigation:
   order: 2
 ---
 <h2 class="tittlepage">Arsip Blog</h2>
-{% include "postslistlite.njk" %}
+{% set postslist = collections.posts %}{% include "postslistlite.njk" %}
