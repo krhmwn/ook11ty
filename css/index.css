@@ -33,7 +33,7 @@ code{word-break:break-all}
 .tittlepage{padding:0 1rem}
 .postlist{list-style:none;padding:0}
 .postlist-item{line-height:1.8;width:calc(99% / 2);height:auto;display:inline-block;vertical-align:top;padding:1.5rem 1rem;border-top:.0625rem dashed var(--gray)}
-.postlist-item:hover{background-color:var(--lightgray);background-image:linear-gradient(to bottom right,#eceff4 20%,#fff,#fff)}
+.postlist-item:hover{background-color:var(--lightgray);background-image:linear-gradient(to bottom,#eceff4,#fff)}
 .postlist-item:nth-child(3n+1){width:calc(99% / 1)}
 .tmpl-post{border-top:.0625rem dashed var(--gray)}
 .post-tag{display:inline-flex;align-items:center;justify-content:center;padding-right:.8em}
