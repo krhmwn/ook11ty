@@ -4,7 +4,7 @@ eleventyComputed:
 layout: layouts/home.njk
 permalink: /{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}
 pagination:
-  data: collections.post
+  data: collections.all
   size: 6
   alias: posts
   reverse: true
