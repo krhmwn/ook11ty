@@ -4,7 +4,7 @@ pagination:
   size: 10
   alias: entries
 layout: layouts/home.njk
-permalink: /page-list/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}
+permalink: /page-list/{% if pagination.pageNumber > 0 %}page{{ pagination.pageNumber + 1 }}/{% endif %}
 key: Daftar Halaman
 ---
 <table>
