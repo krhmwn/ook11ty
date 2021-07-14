@@ -1,6 +1,10 @@
 ---
+pagination:
+  data: collections.all
+  size: 5
+  alias: entries
 layout: layouts/home.njk
-permalink: /posts/
+permalink: /posts/{% if pagination.pageNumber > 0 %}page{{ pagination.pageNumber + 1 }}/{% endif %}
 eleventyNavigation:
   key: Arsip Blog
   order: 2
