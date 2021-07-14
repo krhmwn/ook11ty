@@ -1,6 +1,13 @@
 ---
+eleventyComputed:
+  title: "{% if pagination.pageNumber > 0 %}Page {{ pagination.pageNumber + 1 }}{% else %}Berand{% endif %}"
 layout: layouts/home.njk
-permalink: /posts/
+permalink: /posts/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}
+pagination:
+  data: collections.post
+  size: 6
+  alias: posts
+  reverse: true
 eleventyNavigation:
   key: Arsip Blog
   order: 2
@@ -8,3 +15,11 @@ eleventyNavigation:
 <h2 class="tittlepage">Arsip Blog</h2>
 {% set postslist = collections.posts %}
 {% include "postslistlite.njk" %}
+<div class="pagination">
+      {% if pagination.previous %}
+        <a href="{{ pagination.href.previous | url }}" class="pagination__prev">&larr; Prev Page</a>
+      {% endif %}
+      {% if pagination.next %}
+        <a href="{{ pagination.href.next | url }}" class="pagination__next">Next Page &rarr;</a>
+      {% endif %}
+</div>
