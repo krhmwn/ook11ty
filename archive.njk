@@ -2,7 +2,7 @@
 eleventyComputed:
   title: "{% if pagination.pageNumber > 0 %}Page {{ pagination.pageNumber + 1 }}{% else %}Berand{% endif %}"
 layout: layouts/home.njk
-permalink: /posts/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}
+permalink: /{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}
 pagination:
   data: collections.post
   size: 6
