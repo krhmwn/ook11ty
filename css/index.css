@@ -36,7 +36,7 @@ code{word-break:break-all}
 .postlist-item:hover{background-color:var(--lightgray);background-image:linear-gradient(to bottom,#eceff4,#fff)}
 .postlist-item:nth-child(3n+1){width:calc(99% / 1)}
 .tmpl-post{border-top:.0625rem dashed var(--gray)}
-.post-tag{display:inline-flex;align-items:center;justify-content:center;padding-right:.8em}
+.post-tag{color:var(--darkgray);display:inline-flex;align-items:center;justify-content:center;padding-right:.8em}
 .post-tag:before{content:"#"}
 .postlist-item > .post-tag{align-self:center}
 time{color:var(--darkgray);padding-right:.8em}
