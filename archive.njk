@@ -6,5 +6,5 @@ eleventyNavigation:
   key: Arsip Blog
   order: 2
 ---
-<h2 class="tittlepage">Arsip Blog</h2>
+<h2 class="tittlepage">Arsip Blog: {% if maxPosts == 1 %}{% else %}{{ maxPosts }}{% endif %}</h2>
 {% set postslist = collections.posts %}{% include "postslistlite.njk" %}
