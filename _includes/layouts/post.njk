@@ -14,7 +14,7 @@ templateClass: tmpl-post
 {%- if nextPost or previousPost %}
 <hr>
 <nav class="pagenav">
-  {%- if previousPost %}<a class="prev" href="{{ previousPost.url | url }}" title="Sebelumnya: {{ previousPost.data.title }}">&larr; {{ previousPost.data.title }}</a>{% endif %}
-  {%- if nextPost %}<a class="next" href="{{ nextPost.url | url }}" title="Selanjutnya: {{ nextPost.data.title }}">{{ nextPost.data.title }} &rarr;</a>{% endif %}
+  {%- if previousPost %}<a class="prev" href="{{ previousPost.url | url }}" title="Sebelumnya: {{ previousPost.data.title }}">&larr; {{ previousPost.data.title }}</a>{% else %}<del>Sebelumnya</del>{% endif %}
+  {%- if nextPost %}<a class="next" href="{{ nextPost.url | url }}" title="Selanjutnya: {{ nextPost.data.title }}">{{ nextPost.data.title }} &rarr;</a>{% else %}<del>Selanjutnya</del>{% endif %}
 </nav>
 {%- endif %}
