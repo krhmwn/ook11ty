@@ -1,6 +1,6 @@
 ---
 title: Soto Bofet Rajawali Padang
-description: Mengawali hari ke dua di Padang sebelum agenda rekonsiliasi dengan mitra, kali ini mencoba sarapan di Bofet Rajawali Padang atas rekomendasi dari tim cabang Padang dan makanan yang menjadi spesialis disini adalah soto bofetnya.
+description: Sarapan di Bofet Rajawali Padang atas rekomendasi dari tim cabang Padang.
 date: 2019-12-27
 tags:
   - wisata kuliner
