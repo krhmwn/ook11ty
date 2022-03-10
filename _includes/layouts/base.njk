@@ -19,7 +19,7 @@
 </header>
 <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>{{ content | safe }}</main>
 <footer>
-<p class="info">&copy; {{ metadata.title }} | Didukung oleh <a href="https://www.11ty.dev/" title="11ty">Eleventy</a>, <a href="https://github.com/" title="Github">Github</a> &amp; <a href="https://www.netlify.com/" title="Netlify">Netlify</a></p>
+<p class="info">&copy; <a href="{{ '/' | url }}" title="{{ metadata.title }}">{{ metadata.title }}</a> | Didukung oleh <a href="https://www.11ty.dev/" title="11ty">Eleventy</a>, <a href="https://github.com/" title="Github">Github</a> &amp; <a href="https://www.netlify.com/" title="Netlify">Netlify</a></p>
 </footer>
 </body>
 </html>
