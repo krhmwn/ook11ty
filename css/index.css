@@ -9,7 +9,7 @@ h1{font-size:1.75em}
 p,.tmpl-post li{max-width:37.5em;margin:1rem 0}
 img{max-width:100%;border:.0625rem solid var(--gray);margin:1rem 0}
 a[href]{color:var(--red);text-decoration:none}
-a[href]:visited{color:var(--red2)}
+a[href]:visited{color:var(--red)}
 a[href]:hover{text-decoration:underline}
 ul,ol{margin:0}
 hr{border:0 none;margin:1.5rem 0}
