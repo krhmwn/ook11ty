@@ -49,7 +49,7 @@ time{color:var(--darkgray);padding-right:.8em}
 .direct-link{font-family:sans-serif;text-decoration:none;font-style:normal;margin-left:.1em}
 a[href].direct-link,a[href].direct-link:visited{color:transparent}
 a[href].direct-link:focus,a[href].direct-link:focus:visited,:hover > a[href].direct-link,:hover > a[href].direct-link:visited{color:#aaa}
-footer{padding: 0 1em 2rem;display: block;margin: 0 auto;text-align:center;background-color:var(--white);background-image: linear-gradient(to top, #eceff4, #f0f2f6, #f4f5f8, #f8f8fa, #fbfbfc, #fcfcfd, #fefefe, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);}
+footer{padding:5rem 1em;display: block;margin: 0 auto;text-align:center;background-color:var(--white);background-image: linear-gradient(to top, #eceff4, #f0f2f6, #f4f5f8, #f8f8fa, #fbfbfc, #fcfcfd, #fefefe, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);}
 .nav{padding: 4rem 0 7rem;}
 .nav-item{display:inline-block;margin:0 0.5em}
 .nav-item a[href]:not(:hover){text-decoration:none}
