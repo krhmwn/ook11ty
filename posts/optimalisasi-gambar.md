@@ -1,6 +1,6 @@
 ---
-title: Mengoptimalkan gambar dengan bot di github
-description: Setiap membuat artikel di blog tentu Anda akan menambahkan gambar agar artikel lebih menarik untuk dibaca dan gambar yang diunggah pun harus berkualitas bagus agar informasi yang ada di gambar bisa dipahami oleh pengunjung.
+title: Optimalisasi gambar
+description: Mengoptimalkan gambar dengan bot di github.
 date: 2020-10-17
 tags:
   - blog
