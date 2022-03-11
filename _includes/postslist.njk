@@ -3,5 +3,4 @@
 <time datetime="{{ post.date | htmlDateString }}">{{ post.date | readableDate }}</time>
 {% for tag in post.data.tags | filterTagList %}{% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}<span class="post-tag" title="{{ tag }}">{{ tag }}</span>{% endfor %}
 <p>{{ post.data.description }}</p>
-</li>{% endfor %}
-</ol>
+</li>{% endfor %}</ol>
