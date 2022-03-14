@@ -8,4 +8,4 @@ eleventyNavigation:
 ---
 {% set maxPosts = collections.posts.length | min(1000) %}
 <h2 class="tittlepage">Arsip Blog {% if maxPosts == 1 %}{% else %}({{ maxPosts }}){% endif %}</h2>
-{% set postslist = collections.posts %}{% include "postslist3.njk" %}
+{% set postslist = collections.posts %}{% include "postslistlite3.njk" %}
