@@ -6,34 +6,5 @@ eleventyNavigation:
 ---
 <ul id="instafeed"></ul>
 <script type = "text/javascript">
-var instagram_username = 'ookrah'; 
-var instagram_amount = 12; 
-var jsonurl = 'https://profilepageimages.usecue.com/images/'+instagram_username+'/images.json';
-var request = new XMLHttpRequest();
-request.open('GET', jsonurl, true);
-
-request.onload = function() {
-  if (this.status >= 200 && this.status < 400) {
-    // Success!
-    var data = JSON.parse(this.response);
-    data.forEach( function callback(object,index) {
-      if(index<instagram_amount) {
-        var image_small = object.image_small;
-        var caption = object.caption;
-        if(!caption) caption = '';
-        var permalink = object.permalink.replace(/\/$/, '');
-        var media_type = object.media_type.toLowerCase();
-        document.getElementById('instafeed').innerHTML = document.getElementById('instafeed').innerHTML + "<li style='background-image: url("+image_small+")' class='"+media_type+"'><a href='"+permalink+"' target='_blank' title='"+caption+"'><img src='"+image_small+"' alt='"+caption+"' /></a></li>";
-      }
-    });
-  } else {
-    // We reached our target server, but it returned an error
-  }
-};
-
-request.onerror = function() {
-  // There was a connection error of some sort
-};
-
-request.send();
+var instagram_username="ookrah",instagram_amount=9,jsonurl="https://profilepageimages.usecue.com/images/"+instagram_username+"/images.json",request=new XMLHttpRequest;request.open("GET",jsonurl,!0),request.onload=function(){200<=this.status&&this.status<400&&JSON.parse(this.response).forEach(function(e,t){var a,s;t<instagram_amount&&(a=e.image_small,s=(s=e.caption)||"",t=e.permalink.replace(/\/$/,""),e=e.media_type.toLowerCase(),document.getElementById("instafeed").innerHTML=document.getElementById("instafeed").innerHTML+"<li style='background-image: url("+a+")' class='"+e+"'><a href='"+t+"' target='_blank' title='"+s+"'><img src='"+a+"' alt='"+s+"' /></a></li>")})},request.onerror=function(){},request.send();
 </script>
