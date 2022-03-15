@@ -28,7 +28,7 @@ code{word-break:break-all}
 .highlight-line-active{background-color:#444;background-color:hsla(0,0%,27%,.8)}
 .highlight-line-add{background-color:#45844b}
 .highlight-line-remove{background-color:#902f2f}
-.home{margin:1rem 0}
+.home{padding:0 0 0 1rem}
 .home :link:not(:hover){text-decoration:none}
 .tittlepage{padding:0 1rem}
 .postlist{list-style:none;padding:0}
@@ -51,7 +51,7 @@ a[href].direct-link,a[href].direct-link:visited{color:transparent}
 a[href].direct-link:focus,a[href].direct-link:focus:visited,:hover > a[href].direct-link,:hover > a[href].direct-link:visited{color:#aaa}
 footer{padding:5rem 1em;display: block;margin: 0 auto;text-align:center;}
 .nav{font-size:85%}
-.nav-item{display:inline-block;margin:0 0.5em}
+.nav-item{display:inline-block}
 .nav-item a[href]:not(:hover){text-decoration:none}
 .nav-item-active{font-weight:bold}
 .info{font-size:80%;color:var(--darkgray);max-width:100%}
