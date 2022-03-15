@@ -55,8 +55,9 @@ footer{padding:5rem 1em;display: block;margin: 0 auto;text-align:center;}
 .nav-item-active{font-weight:bold}
 .info{font-size:80%;color:var(--darkgray);max-width:100%}
 @media only screen and (max-width: 47.9999em) {
-header{display:block}
+header{display:block;width:auto;}
 .home,.nav{float:none}
+.nav {padding-left: 1em;}
 .tmpl-home{padding:1rem 0}
 .postlist-item{width:calc(99% / 1);padding:1rem}
 .postlist-item:nth-child(3n+2){border-right:none}
