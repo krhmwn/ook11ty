@@ -31,7 +31,7 @@ code{word-break:break-all}
 .home :link:not(:hover){text-decoration:none}
 .tittlepage{padding:0 1rem}
 .postlist{list-style:none;padding:0}
-.postlist-item{line-height:1.8;width:calc(99% / 2);height:auto;display:inline-block;vertical-align:top;padding:1.5rem 1rem;border-top:.0625rem dashed var(--gray)}
+.postlist-item{line-height:1.8;width:calc(99% / 2);height:auto;display:inline-block;vertical-align:top;padding:1.5rem 1rem}
 .postlist-item:nth-child(3n+1){width:calc(99% / 1)}
 .postlist-item:nth-child(3n+2){border-right:.0625rem solid var(--white)}
 .postlist-item:nth-child(3n+2):hover{border-right:.0625rem dashed var(--gray)}
