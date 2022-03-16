@@ -42,7 +42,7 @@ code{word-break:break-all}
 .post-tag:before{content:"#"}
 .postlist-item > .post-tag{align-self:center}
 time{color:var(--darkgray);padding-right:.8em}
-.pagenav{display:block;width:auto;overflow:hidden;padding:1.75rem 0;border-top:.0625rem dashed var(--gray);border-bottom;border-top:.0625rem dashed var(--gray);}
+.pagenav{display:block;width:auto;overflow:hidden;padding:1.75rem 0;border-top:.0625rem dashed var(--gray);border-bottom:.0625rem dashed var(--gray);}
 .pagenav a{display:block;width:50%;float:left}
 .pagenav .next{text-align:right;float:right}
 .direct-link{font-family:sans-serif;text-decoration:none;font-style:normal;margin-left:.1em}
