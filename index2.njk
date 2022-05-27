@@ -1,0 +1,9 @@
+---
+layout: layouts/home.njk
+eleventyNavigation:
+  key: Beranda
+  order: 1
+---
+{% set maxPosts = collections.posts.length | min(1000) %}
+<h2 class="tittlepage">Blog {% if maxPosts == 1 %}{% else %}({{ maxPosts }}){% endif %}</h2>
+{% set postslist = collections.posts %}{% include "postslistlite3.njk" %}
