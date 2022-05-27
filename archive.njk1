@@ -4,7 +4,7 @@ permalink: /posts/
 title: Arsip Blog
 eleventyNavigation:
   key: Arsip Blog
-  order: 0
+  order: 2
 ---
 {% set maxPosts = collections.posts.length | min(1000) %}
 <h2 class="tittlepage">Arsip Blog {% if maxPosts == 1 %}{% else %}({{ maxPosts }}){% endif %}</h2>
