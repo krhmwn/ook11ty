@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: {{ metadata.title }} {% if maxPosts == 1 %}{% else %}({{ maxPosts }}){% endif %}
+  key: {{ metadata.title }}
   order: 1
 ---
 {% set maxPosts = collections.posts.length | min(1000) %}
