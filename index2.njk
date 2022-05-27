@@ -1,7 +1,7 @@
 ---
 layout: layouts/home.njk
 eleventyNavigation:
-  key: Ook Rahmawan {% if maxPosts == 1 %}{% else %}({{ maxPosts }}){% endif %}
+  key: Ook Rahmawan
   order: 1
 ---
 {% set maxPosts = collections.posts.length | min(1000) %}
