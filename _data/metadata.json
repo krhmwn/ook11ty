@@ -2,6 +2,7 @@
   "title": "Ook Rahmawan",
   "url": "http://ook.web.id/",
   "language": "id",
+  "logo": "OR",
   "description": "Teknologi, Web, Blog, Desain, Wisata kuliner, Makan enak, Jalan-jalan, Pengalaman",
   "feed": {
     "subtitle": "Teknologi, Web, Blog, Desain, Wisata kuliner, Makan enak, Jalan-jalan, Pengalaman",
@@ -16,7 +17,6 @@
   "author": {
     "name": "Ook Rahmawan",
     "email": "ookrahmawan@mail.ru",
-    "url": "http://ook.web.id/",
-    "logo": "OR"
+    "url": "http://ook.web.id/"
   }
 }
